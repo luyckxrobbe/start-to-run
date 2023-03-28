@@ -1,0 +1,48 @@
+.startToRunTable {
+  margin-top: 30px;
+  color: #490f0b;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: "Open Sans", sans-serif;
+}
+hr {
+  display: block;
+  border: 0;
+  border-top: 5px solid #490f0b;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: #490f0b;
+}
+h1 {
+  color: #490f0b;
+  text-align: center;
+}
+th {
+  font-weight: 800;
+  padding-bottom: 25px;
+}
+
+#sideHeader {
+  color: #f5f5f5;
+  background-color: #490f0b;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+td {
+  font-weight: 400;
+  padding: 40px;
+}
+td:hover {
+  background-color: #ededed;
+}
+
+.done {
+  background-color: #ededed;
+  color: #dbdbdb;
+}
