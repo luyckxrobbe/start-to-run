@@ -1,48 +1,73 @@
-.startToRunTable {
-  margin-top: 30px;
-  color: #490f0b;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+* {
+  padding: 0;
+  margin: 0;
 }
 
 body {
   background-color: #f5f5f5;
-  font-family: "Open Sans", sans-serif;
 }
+
+h1 {
+  color: #490f0b;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  padding: 30px 0px 15px;
+}
+
 hr {
   display: block;
   border: 0;
   border-top: 5px solid #490f0b;
-  margin-left: 15%;
-  margin-right: 15%;
   color: #490f0b;
 }
-h1 {
+
+.startToRunTable {
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
   color: #490f0b;
+  font-family: "Open Sans", sans-serif;
   text-align: center;
-}
-th {
-  font-weight: 800;
-  padding-bottom: 25px;
+  font-size: 9pt;
 }
 
 #sideHeader {
+  padding: 0 15px 0;
   color: #f5f5f5;
   background-color: #490f0b;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 
 td {
-  font-weight: 400;
-  padding: 40px;
-}
-td:hover {
-  background-color: #ededed;
+  margin: auto;
+  padding: 15px;
 }
 
 .done {
   background-color: #ededed;
   color: #dbdbdb;
+}
+
+.startToRunTable td {
+  cursor: pointer;
+  user-select: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .startToRunTable {
+    font-size: large;
+  }
+
+  hr {
+    width: 60%;
+    margin: auto;
+  }
+
+  td {
+    padding: 40px;
+  }
+
+  td:hover {
+    background-color: #ededed;
+  }
 }
