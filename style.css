@@ -38,6 +38,10 @@ hr {
   background-color: #490f0b;
 }
 
+#topHeader {
+  padding-bottom: 15px;
+}
+
 td {
   margin: auto;
   padding: 15px;
