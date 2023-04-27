@@ -62,6 +62,7 @@ td {
 }
 
 #arrow {
+  cursor: pointer;
   width: 50px
 }
 #arrow:hover {
