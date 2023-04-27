@@ -1,6 +1,7 @@
 :root {
   --theme: #490f0b;
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -15,7 +16,7 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
   text-align: center;
-  padding: 30px 0px 15px;
+  padding: 0px 0px 15px;
 }
 
 hr {
@@ -63,7 +64,6 @@ td {
 #arrow {
   width: 50px
 }
-
 #arrow:hover {
   transition: transform 500ms;
   transform: scale(1.05);
